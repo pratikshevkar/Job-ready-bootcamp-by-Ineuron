@@ -556,3 +556,63 @@
 
 // return 0;
 // }
+
+// #include<stdio.h>
+// int main() {
+//     long int a,b;
+//     printf("Enter two number:- ");
+//     scanf("%d %d",&a, &b);
+//     long int *ptr = &a;
+//     long int *ptr1 = &b;
+//     if(*ptr > *ptr1) {
+//         printf("Max %d",*ptr);
+
+//     } else {
+//          printf("Max %d",*ptr1);
+//     }
+
+// return 0;
+// }
+
+// #include<stdio.h>
+// int main() {
+//     int c;
+//     c = sizeof(long int);
+//     printf("%d",c);
+
+//     return 0;
+// }
+
+// #include<stdio.h>
+// int *getmax(int*, int*); 
+// int main() {
+//     int a,b;
+//     int *max=NULL;
+//     printf("Enter value of a & b");
+//     scanf("%d %d",&a, &b);
+//     max = getmax(&a, &b);
+//     printf("Maximum value is %d",*max);
+
+//     return 0;
+// }
+// int *getmax(int *m, int *n) {
+//     if (*m > *n) {
+//         return m;
+//     } else {
+//         return n;
+//     }
+    
+// }
+
+#include<stdio.h>
+char* sum();
+int main() {
+    char *ptr=NULL;
+    ptr = sum();
+    printf("%s",ptr);
+    return 0;
+}
+
+char* sum() {
+    return "naruto";
+}
